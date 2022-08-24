@@ -915,7 +915,7 @@ progress {
     color:yellow;
     font-size: 65px;
     position: relative;
-    top: -50px;
+    top: -54px;
   }
   .bi3 {
     color:blue;
@@ -944,10 +944,42 @@ progress {
     left: 5px;
     font-size: 19px;
    }
+   .text3 {
+    position: relative;
+    color: gray;
+    top: -63px;
+    left: 103px;
+    font-size: 12px;
+   }
+   .text4 {
+    position: relative;
+    color: black;
+    font-weight: 400;
+    top: -40px;
+    left: 33px;
+    font-size: 19px;
+   }
+   .text5 {
+    position: relative;
+    color: black;
+    font-weight: 400;
+    top: -40px;
+    left: 58px;
+    font-size: 19px;
+   }
    .link1 {
     text-decoration: none;
     position: relative;
     left: -30px;
+   }
+   .link2 {
+    text-decoration: none;
+    position: relative;
+    left: -41px;
+   }
+   .line1 {
+    position: relative;
+    width: 10%;
    }
   .row-cols-sm-2 > * {
     flex: 0 0 auto;
@@ -959,7 +991,7 @@ progress {
     width: 33.3333333333%;
   }
   main {
-    background-color: #C5bec5;
+    background-color: #EAEAEA;
   }
   .row-cols-sm-4 > * {
     flex: 0 0 auto;
@@ -4574,11 +4606,77 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color:#F6F6F6;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border:none;
+  border-radius:none;
 }
+.card1 {
+  position: relative;
+    flex-direction: column;
+    width: 91%;
+    height: 154px;
+    padding: 24px 9px;
+    position: relative;
+    left: 17px;
+    top: -19px;
+    word-wrap: break-word;
+    background-color: #448B00;
+}
+.card2 {
+  position: relative;
+    flex-direction: column;
+    width: 91%;
+    height: 154px;
+    padding: 24px 9px;
+    position: relative;
+    left: 17px;
+    top: -19px;
+    word-wrap: break-word;
+    background-color:#D89E24;
+}
+.card3 {
+  position: relative;
+    flex-direction: column;
+    width: 91%;
+    height: 154px;
+    padding: 24px 9px;
+    position: relative;
+    left: 17px;
+    top: -19px;
+    word-wrap: break-word;
+    background-color:#274D97;
+}
+ .body1 {
+  position: relative;
+    top: 37px;
+    left: -12px;
+    padding: 3px 4px;
+    font-size: 18px;
+    font-weight: 400;
+ } 
+ .body2 {
+  position: relative;
+  top: 60px;
+  left: -103px;
+  padding: 7px 0px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #8B8C92;
+ }   
+ .bodyline {
+  position: relative;
+    top: 61px;
+    left: -6px;
+    width: 103%;
+ }
+ .card-header {
+  padding:none;
+  margin-bottom: 0;
+  color: none; 
+  
+  border-bottom:none;
+}    
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -4604,7 +4702,9 @@ textarea.form-control-lg {
 
 .card-body {
   flex: 1 1 auto;
-  padding: 1rem 1rem;
+  background-color: #F6F6F6;
+  height: 100px;
+  
 }
 
 .card-title {
@@ -4625,17 +4725,31 @@ textarea.form-control-lg {
 }
 
 .card-header {
-  padding: 0.5rem 1rem;
+  padding:0;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  color:none;
+   background-color:none;
+  border-bottom:none;
+}
+.time1 {
+  position: relative;
+  top: 52px;
+  left: -7px;
+  color: grey;
+}
+.hours {
+  position: relative;
+    top: 52px;
+    left: 2px;
+    color: grey;
+    font-size: 12px;
 }
 .card-header:first-child {
   border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
 }
 
 .card-footer {
-  padding: 0.5rem 1rem;
+  padding: 11px 18px;
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
@@ -7915,6 +8029,7 @@ textarea.form-control-lg {
 
 .bg-white {
   --bs-bg-opacity: 1;
+  box-shadow: 2px 4px 2px #bfbfbf;
   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
 }
 
