@@ -990,6 +990,7 @@ progress {
   }
   main {
     background-color: #EAEAEA;
+    border-bottom: 1px solid #D9D9D9;
   }
   .row-cols-sm-4 > * {
     flex: 0 0 auto;
@@ -4029,11 +4030,28 @@ textarea.form-control-lg {
   margin-bottom: 0;
   list-style: none;
 }
+.nav1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
 
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
   color: #0d6efd;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.nav-link1 {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #706267;
+  text-transform: uppercase;
+  font-weight: 600;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -4745,6 +4763,10 @@ textarea.form-control-lg {
 ul.nav a:hover { 
   color: #fff !important; 
 background-color: #DEAD49;
+}
+ul.nav1 a:hover { 
+  color: #fff !important; 
+background-color: red;
 }
 ul.nav a {
   color: #fff !important; 
@@ -8087,6 +8109,15 @@ th {
 .text-muted {
   --bs-text-opacity: 1;
   color: #6c757d !important;
+}
+.text-muted1 {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #706267;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
 .text-black-50 {
