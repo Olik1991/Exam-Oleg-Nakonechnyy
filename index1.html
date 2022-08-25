@@ -61,39 +61,7 @@
                         </a>
 
 
-                        <div class="collapse" id="collapsePages" aria-labelledby="headingTwo"
-                            data-bs-parent="#sidenavAccordion">
-                            <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
-                                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
-                                    data-bs-target="#pagesCollapseAuth" aria-expanded="false"
-                                    aria-controls="pagesCollapseAuth">
-                                    Authentication
-                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                                </a>
-                                <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne"
-                                    data-bs-parent="#sidenavAccordionPages">
-                                    <nav class="sb-sidenav-menu-nested nav">
-                                        <a class="nav-link" href="login.html">Login</a>
-                                        <a class="nav-link" href="register.html">Register</a>
-                                        <a class="nav-link" href="password.html">Forgot Password</a>
-                                    </nav>
-                                </div>
-                                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
-                                    data-bs-target="#pagesCollapseError" aria-expanded="false"
-                                    aria-controls="pagesCollapseError">
-                                    Error
-                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                                </a>
-                                <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne"
-                                    data-bs-parent="#sidenavAccordionPages">
-                                    <nav class="sb-sidenav-menu-nested nav">
-                                        <a class="nav-link" href="401.html">401 Page</a>
-                                        <a class="nav-link" href="404.html">404 Page</a>
-                                        <a class="nav-link" href="500.html">500 Page</a>
-                                    </nav>
-                                </div>
-                            </nav>
-                        </div>
+                        
 
                     </div>
                 </div>
@@ -102,239 +70,128 @@
         <div id="layoutSidenav_content">
             <main>
                 <div class="container-fluid px-4">
-                    <h1 class="mt-4">Dashboard</h1>
+                    <h1 class="mt-4">User Profile</h1>
 
-                    <div class="row">
-                        <div class="col-xl-3 col-md-6">
-                            <div class="card bg-white text-white mb-4">
-                                <div class="card-body"><i class="bi1 bi-server"></i>
-                                    <span class="text1">Used Space</span>
-                                    <span class="text2">45/50 GB</span>
-
-                                </div>
-                                <div class="card-footer d-flex align-items-center justify-content-between">
-                                    <img src="./img/alert.png" alt="">
-                                    <a class=" link1 small text-secondary stretched-link" href="#">Get More Space...</a>
-                                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-6">
-                            <div class="card bg-white text-white mb-4">
-                                <div class="card-body"><i class="bi2 bi-house-fill"></i>
-                                    <span class="text3">Revenue</span>
-                                    <span class="text4">$34.245</span>
-
-                                </div>
-                                <div class="card-footer d-flex align-items-center justify-content-between">
-                                    <img src="./img/calendar.png" alt="">
-                                    <a class=" link2 small text-secondary stretched-link" href="#">Last 24 Hours</a>
-                                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-6">
-                            <div class="card bg-white text-white mb-4">
-                                <div class="card-body"><i class="bi3 bi-tags-fill"></i>
-                                    <span class="text1">Fixed Issues</span>
-                                    <span class="text5">75</span>
-
-                                </div>
-                                <div class="card-footer d-flex align-items-center justify-content-between">
-                                    <img src="./img/down.png" alt="">
-                                    <a class=" link2 small text-secondary stretched-link" href="#">Last 24 Hours</a>
-                                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-6">
-                            <div class="card bg-white text-white mb-4">
-                                <div class="card-body"><i class="bi4 bi-send"></i>
-                                    <span class="text1">+Followers</span>
-                                    <span class="text4">+245</span>
-
-                                </div>
-                                <div class="card-footer d-flex align-items-center justify-content-between">
-                                    <img src="./img/time.png" alt="">
-                                    <a class=" link2 small text-secondary stretched-link" href="#">Last 24 Hours</a>
-                                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col1-xl-3 col-md-4 col-sm-1">
-                            <div class="card mb-4">
-                                <div class="card1">
-                                <div class="card-header1">
-                                    <img src="./img/graphics.svg" width="250" height="100" alt="">
-                                    <span class="body1">Daily Sales</span>
-                                    <span class="body2">55% increase in today sales</span>
-                                    <hr class="bodyline">
-                                    <img class="time1" src="./img/time.png" alt="">
-                                    <span class="hours">updated 4 minutes ago</span>
-                                </div>
-                            </div>
-                                <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
-                            </div>
-                        </div>
-                        <div class="col1-xl-3 col-md-4 col-sm-1">
-                            <div class="card mb-4">
-                                <div class="card2">
-                                <div class="card-header1">
-                                    <img src="./img/graphics.svg" width="250" height="100" alt="">
-                                    <span class="body1">Daily Sales</span>
-                                    <span class="body2">Last Campaign Performance</span>
-                                    <hr class="bodyline">
-                                    <img class="time1" src="./img/time.png" alt="">
-                                    <span class="hours">updated 4 minutes ago</span>
-                                </div>
-                            </div>
-                                <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
-                            </div>
-                        </div>
-                        <div class="col1-xl-3 col-md-4 col-sm-1">
-                            <div class="card mb-4">
-                                <div class="card3">
-                                <div class="card-header1">
-                                    <img src="./img/graphics.svg" width="250" height="100" alt="">
-                                    <span class="body1">Daily Sales</span>
-                                    <span class="body2">Last Campaign Performance</span>
-                                    <hr class="bodyline">
-                                    <img class="time1" src="./img/time.png" alt="">
-                                    <span class="hours">updated 4 minutes ago</span>
-                                </div>
-                            </div>
-                                <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
-                            </div>
-                        </div>
-                    </div>
+                  
+                    
+                    
+                    
+                   
+                    
+                    
+                    
+                    
+                    
                     <div class="row">
                         <div class="col1-xl-6 col-md-6 col-sm-1">
-                            <div class="cardall mb-4">
-                                <div class="card4">
+                            <div class="cardall22 mb-4">
+                                <div class="card6">
                                 <div class="card-header1">
-                                    
-                                    <ul class="nav">
-                                        <li class="nav-item">
-                                          <a class="nav-link" aria-current="page" href="#">Tasks:</a>
-                                        </li>
-                                        <li class="nav-item">
-                                          <a class="nav-link" href="#"> <i class="bi bi-bug"></i> Bugs</a>
-                                        </li>
-                                        <li class="nav-item">
-                                          <a class="nav-link" href="#"> <i class="bi bi-globe"></i> Website</a>
-                                        </li>
-                                        <li class="nav-item">
-                                          <a class="nav-link"  href="#"> <i class="bi bi-cloudy"></i> Server</a>
-                                        </li>
-                                      </ul>
-                                    
-                                    
+                                    <span class="cardtitle1">Edit Profile</span>
+                                    <span class="cardtitle3"> Complete your profile</span>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Sign contract for "What are conference organizers afraid<br>
-                                        of?"
-                                      </label>
-                                      <img class="edit" src="./img/edit.png" alt="">
-                                      <img class="remove" src="./img/remove.png" alt="">
-                                      <hr class="lineform">
-                                  </div>
-                                  <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Lines contract for "What are conference organizers afraid<br>
-                                        of?"
-                                      </label>
-                                      <img class="edit" src="./img/edit.png" alt="">
-                                      <img class="remove" src="./img/remove.png" alt="">
-                                      <hr class="lineform">
-                                  </div>
-                                  <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Lines contract for "What are conference organizers afraid<br>
-                                        of?"
-                                      </label>
-                                      <img class="edit" src="./img/edit.png" alt="">
-                                      <img class="remove" src="./img/remove.png" alt="">
-                                      <hr class="lineform">
-                                  </div>
-                                  <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Lines contract for "What are conference organizers afraid<br>
-                                        of?"
-                                      </label>
-                                      <img class="edit" src="./img/edit.png" alt="">
-                                      <img class="remove" src="./img/remove.png" alt="">
-                                     
-                                  </div>
+                                    <div class="row g-4">
+                                        <div class="col-md-4">
+                                          <div class="form-floating">
+                                            <input type="email" class="form-control" id="floatingInputGrid" placeholder="" value="">
+                                            <label class="label1" for="floatingInputGrid">Company</label>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-floating">
+                                              <input type="email" class="form-control" id="floatingInputGrid" placeholder="" value="">
+                                              <label class="label1" for="floatingInputGrid">Username</label>
+                                            </div>
+                                          </div>
+                                          <div class="col-md-4">
+                                            <div class="form-floating">
+                                              <input type="email" class="form-control" id="floatingInputGrid" placeholder="" value="">
+                                              <label class="label1" for="floatingInputGrid">Email address</label>
+                                            </div>
+                                          </div>
+                                        
+                                      </div>
+                                      <div class="row g-4 mb-0">
+                                        <div class="col-md-6">
+                                          <div class="form-floating">
+                                            <input type="email" class="form-control" id="floatingInputGrid" placeholder="" value="">
+                                            <label class="label1" for="floatingInputGrid">Company</label>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-floating">
+                                              <input type="email" class="form-control" id="floatingInputGrid" placeholder="" value="">
+                                              <label class="label1" for="floatingInputGrid">Username</label>
+                                            </div>
+                                          </div>
+                                        
+                                      </div>
+                                      <div class="row g-4 mb-0">
+                                        <div class="col-md-12">
+                                            <div class="form-floating">
+                                              <input type="email" class="form-control" id="floatingInputGrid" placeholder="" value="">
+                                              <label class="label1" for="floatingInputGrid">Adress</label>
+                                            </div>
+                                          </div>
+                                        
+                                      </div>
+                                      <div class="row g-4">
+                                        <div class="col-md-4">
+                                          <div class="form-floating">
+                                            <input type="email" class="form-control" id="floatingInputGrid" placeholder="" value="">
+                                            <label class="label1" for="floatingInputGrid">City</label>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-floating">
+                                              <input type="email" class="form-control" id="floatingInputGrid" placeholder="" value="">
+                                              <label class="label1" for="floatingInputGrid">Country</label>
+                                            </div>
+                                          </div>
+                                          <div class="col-md-4">
+                                            <div class="form-floating">
+                                              <input type="email" class="form-control" id="floatingInputGrid" placeholder="" value="">
+                                              <label class="label1" for="floatingInputGrid">Postal Code</label>
+                                            </div>
+                                          </div>
+                                        
+                                      </div>
+                                      <div class="row g-4 mb-0">
+                                        <div class="col-md-12">
+                                            <div class="form-floating" >
+                                                
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                                                <label  for="exampleFormControlTextarea1" class="label1">About Me</label>
+                                              </div>
+                                          </div>
+                                        
+                                      </div>
+                                    
+                               <a href="">
+                                <button type="button" class="btn23 btn-danger justify-content-right">Update Profile</button>
+                               </a>
+                                
+                                
+                                
                             </div>
                                 
                             </div>
                         </div>
                         <div class="col1-xl-6 col-md-6 col-sm-1">
-                            <div class="cardall mb-4">
-                                <div class="card5">
-                                <div class="card-header1">
-                                    
-                                    <span class="cardtitle1">Employees Stats</span>
-                                    <span class="cardtitle2">New employees on 19th September,2019</span>
-                                    
-                                    
-                                </div>
-                                <table class="table">
-                                    <thead>
-                                      <tr>
-                                        <th scope="col">ID</th>
-                                        <th scope="col">Name</th>
-                                        <th scope="col">Salary</th>
-                                        <th scope="col">Country</th>
-                                      </tr>
-                                    </thead>
-                                    <tbody>
-                                      <tr>
-                                        <th scope="row">1</th>
-                                        <td>Dacota Rise</td>
-                                        <td>$36.738</td>
-                                        <td>Niger</td>
-                                      </tr>
-                                      <tr>
-                                        <th scope="row">2</th>
-                                        <td>Dacota Rise</td>
-                                        <td>$36.738</td>
-                                        <td>Niger</td>
-                                      </tr>
-                                      <tr>
-                                        <th scope="row">3</th>
-                                        <td>Dacota Rise</td>
-                                        <td>$36.738</td>
-                                        <td>Niger</td>
-                                      </tr>
-                                      <tr>
-                                        <th scope="row">4</th>
-                                        <td>Dacota Rise</td>
-                                        <td>$36.738</td>
-                                        <td>Niger</td>
-                                      </tr>
-                                      <tr>
-                                        <th scope="row">5</th>
-                                        <td>Dacota Rise</td>
-                                        <td>$36.738</td>
-                                        <td>Niger</td>
-                                      </tr>
-                                      <tr>
-                                        <th scope="row">6</th>
-                                        <td>Dacota Rise</td>
-                                        <td>$36.738</td>
-                                        <td>Niger</td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                            
+                            <div class="cardall23 mb-4">
+                                <div class="imgceo">
+                                    <img class="ceo1" src="./img/Ceo.jpg"  alt="">
+                                    <div class="col col-md-4">
+                                    <span class="ceotext">CEO / CO-Founder</span>
+                                        </div>
+                                        <div class="col col-md-4">
+                                            <span class="ceotext1">Alec Thompson</span>
+                                        </div>
+                                        
+                                        <span class="ceotext3">Don't be scared of the truth because we need<br>
+                                        to restart the human foundation in truth And I<br>
+                                       <span class="letter1">love you like Kanye loves Kanye i love Rick </span><br>
+                                    <span class="letter2">  Owens' bed design but the back is...</span> </span>
                             
                             
                                 </div>
